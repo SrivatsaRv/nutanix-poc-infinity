@@ -1,0 +1,238 @@
+{
+	"status": {
+		"state": "COMPLETE",
+		"name": "cluster-name-A",
+		"resources": {
+			"nodes": {
+				"hypervisor_server_list": [{
+						"ip": "A.B.C.D",
+						"version": "el7.nutanix.20220304.242",
+						"type": "AHV"
+					},
+					{
+						"ip": "A.B.C.D",
+						"version": "",
+						"type": "AHV"
+					},
+					{
+						"ip": "A.B.C.D",
+						"version": "el7.nutanix.20220304.242",
+						"type": "AHV"
+					},
+					{
+						"ip": "A.B.C.D",
+						"version": "el7.nutanix.20220304.242",
+						"type": "AHV"
+					},
+					{
+						"ip": "A.B.C.D",
+						"version": "el7.nutanix.20220304.242",
+						"type": "AHV"
+					},
+					{
+						"ip": "A.B.C.D",
+						"version": "el7.nutanix.20220304.242",
+						"type": "AHV"
+					},
+					{
+						"ip": "A.B.C.D",
+						"version": "el7.nutanix.20220304.242",
+						"type": "AHV"
+					},
+					{
+						"ip": "A.B.C.D",
+						"version": "el7.nutanix.20220304.242",
+						"type": "AHV"
+					},
+					{
+						"ip": "A.B.C.D",
+						"version": "el7.nutanix.20220304.242",
+						"type": "AHV"
+					},
+					{
+						"ip": "A.B.C.D",
+						"version": "el7.nutanix.20220304.242",
+						"type": "AHV"
+					},
+					{
+						"ip": "A.B.C.D",
+						"version": "el7.nutanix.20220304.242",
+						"type": "AHV"
+					},
+					{
+						"ip": "A.B.C.D",
+						"version": "el7.nutanix.20220304.242",
+						"type": "AHV"
+					},
+					{
+						"ip": "A.B.C.D",
+						"version": "el7.nutanix.20220304.242",
+						"type": "AHV"
+					}
+				]
+			},
+			"config": {
+				"ssl_key": {
+					"key_type": "RSA_2048",
+					"expire_datetime": "2023-06-2032",
+					"signing_info": {
+						"city": "",
+						"state": "London, City of",
+						"country_code": "GB",
+						"common_name": "prism-central-name\n",
+						"organization": "Company-Name",
+						"email_address": ""
+					}
+				},
+				"authorized_public_key_list": [{
+					"name": "Anisble",
+					"key": "key-pair-here"
+				}],
+				"software_map": {
+					"NCC": {
+						"status": "INSTALLED",
+						"version": "ncc-4.6.4",
+						"software_type": "NCC"
+					},
+					"NOS": {
+						"status": "INSTALLED",
+						"version": "6.5.1.6",
+						"software_type": "NOS"
+					}
+				},
+				"encryption_status": "NOT_SUPPORTED",
+				"service_list": [
+					"AOS"
+				],
+				"redundancy_factor": 2,
+				"supported_information_verbosity": "BASIC_PLUS_CORE_DUMP",
+				"cluster_arch": "X86_64",
+				"domain_awareness_level": "NODE",
+				"is_available": true,
+				"build": {
+					"commit_id": "7c84485a320ec3a2552e8894822c9b6933ad8c91",
+					"full_version": "el7.3-release-fraser-6.5.1.6-stable-7c84485a320ec3a2552e8894822c9b6933ad8c91",
+					"is_long_term_support": true,
+					"version": "6.5.1.6",
+					"short_commit_id": "ids",
+					"build_type": "release"
+				},
+				"enabled_feature_list": [
+					"PASSWORD_REMOTE_LOGIN_ENABLED",
+					"SHADOW_CLONES_ENABLED"
+				],
+				"timezone": "Europe/London",
+				"operation_mode": "NORMAL"
+			},
+			"network": {
+				"external_ip": "A.B.C.D",
+				"http_proxy_list": [{
+					"credentials": {
+						"username": "username-here"
+					},
+					"address": {
+						"fqdn": "proxy-name-herel",
+						"port": 8080
+					},
+					"name": "proxy-name-here",
+					"proxy_type_list": [
+						"HTTP",
+						"HTTPS"
+					]
+				}],
+				"ntp_server_ip_list": [
+					"ntp1",
+					"ntp2"
+				],
+				"smtp_server": {
+					"email_address": "sampleemail@gmail.com",
+					"type": "PLAIN",
+					"server": {
+						"address": {
+							"fqdn": "smpt.here",
+							"port": 25
+						}
+					}
+				},
+				"external_subnet": "A.B.C.D/255.255.255.63",
+				"external_data_services_ip": "A.B.C.D",
+				"name_server_ip_list": [
+					"A.B.C.D",
+					"A.B.C.D"
+				],
+				"http_proxy_whitelist": [{
+						"target_type": "IPV4_ADDRESS",
+						"target": "A.B.C.D"
+					},
+					{
+						"target_type": "IPV4_ADDRESS",
+						"target": "A.B.C.D"
+					},
+					{
+						"target_type": "DOMAIN_NAME_SUFFIX",
+						"target": "*.iggroup.local"
+					},
+					{
+						"target_type": "DOMAIN_NAME_SUFFIX",
+						"target": "*.igi.ig.local"
+					},
+					{
+						"target_type": "DOMAIN_NAME_SUFFIX",
+						"target": "*.inaut.io"
+					},
+					{
+						"target_type": "IPV4_NETWORK_MASK",
+						"target": "A.B.C.D/255.255.255.192"
+					},
+					{
+						"target_type": "IPV4_NETWORK_MASK",
+						"target": "A.B.C.D/255.255.255.192"
+					},
+					{
+						"target_type": "IPV4_NETWORK_MASK",
+						"target": "A.B.C.D/255.255.255.192"
+					},
+					{
+						"target_type": "IPV4_NETWORK_MASK",
+						"target": "A.B.C.D/255.255.255.192"
+					},
+					{
+						"target_type": "IPV4_NETWORK_MASK",
+						"target": "A.B.C.D/255.255.255.192"
+					},
+					{
+						"target_type": "IPV4_NETWORK_MASK",
+						"target": "A.B.C.D/255.255.255.192"
+					},
+					{
+						"target_type": "IPV4_NETWORK_MASK",
+						"target": "A.B.C.D/255.255.255.192"
+					},
+					{
+						"target_type": "IPV4_NETWORK_MASK",
+						"target": "A.B.C.D/255.255.255.192"
+					},
+					{
+						"target_type": "IPV4_NETWORK_MASK",
+						"target": "A.B.C.D/255.255.255.192"
+					}
+				],
+				"internal_subnet": "A.B.C.D/255.255.255.128"
+			},
+			"analysis": {
+				"vm_efficiency_map": {
+					"dead_vm_num": "0",
+					"bully_vm_num": "0",
+					"constrained_vm_num": "0",
+					"inefficient_vm_num": "0",
+					"overprovisioned_vm_num": "0"
+				}
+			}
+		},
+		"execution_context": {
+			"task_uuid": [
+				"id-here"
+			]
+		}
+	}
+}
